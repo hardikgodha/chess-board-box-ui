@@ -3,36 +3,92 @@
     padding: 0;
     box-sizing: border-box;
 }
-html body{
-    height: 100vh;
-    width: 100vw;
-    background-color:  aquamarine;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-   
-}
-#container{
-    display: grid;
-    grid-template-columns: repeat(8,1fr);
-    grid-template-rows: repeat(8,1fr);
-    height: 95%;
-    width: 50%;
-    background-color: rgb(129, 87, 33);
-    gap: 7px;
-    overflow: hidden;
 
+#container{
+   height: 100vh;
+   width: 100%;
+   background-color:#F7F7F7;
+}
+#header{
+    
+    height: 100px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    color: white;
+}
+h1{
+    background-color: red;
+    height: 50px;
+    border-radius: 2px;
+    width: 140px;
+    text-align: center;
+    padding: 7px;
+   
+
+}
+#icon{
+    display: flex;
+    gap: 40px;
+    font-size: 1em;
+ 
+}
+nav{
+    display: flex;
+    gap: 20px;
+    color: white;
+    border: white;
     
 }
-.box{
-   width: 90px;
-   height: 93px;
-  
+.hover{
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    width: 70px;
+    text-align: center;
+    border-radius: 2px solid;
 }
-.first{
-    background-color: brown;
+.main{
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/1200x/fa/26/40/fa264054b6a53d1c84b80cd982d40d80.jpg);
+    color: white;
 }
-.second{
-    background-color: white;
+img
+{
+    width: 290px;
+    height: 120px;
+    position: absolute;
+    left: 390px;
+    height: 300px;
+    background-color: transparent;
+    background-image: none;
+    top: 300px;
+    
+}
+#content{
+    position: absolute;
+    right: 160px;
+    bottom: 300px;
+    
+    width: 390px;
+}
+h2{
+    font-size: 40px;
+}
+.image{
+    height: 220px;
+    width: 220px;
+    background-color: red;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    left: 340px;
+    position: absolute;
+
+    background-image: url(./hardik.jpeg);
+    border-radius: 50%;
 }
